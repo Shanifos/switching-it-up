@@ -1,7 +1,5 @@
-var mocha = require('mocha')
 var calculateScore = require('./scoring').calculateScore
 var expect = require('chai').expect
-var { describe, it } = mocha
 
 describe('Scoring', function () {
   it('returns the score for a quarterback', function () {
